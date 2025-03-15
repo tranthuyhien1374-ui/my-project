@@ -58,3 +58,9 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
 
+## Front-end Rules
+
+- Sử dụng BEM: `.block__element--modifier`.
+- Mỗi tính năng trong `src/app/<tên-tính-năng>/`.
+- Chạy `npm run format` trước commit.
+- Commit message: `[FEAT] Add login component`.
