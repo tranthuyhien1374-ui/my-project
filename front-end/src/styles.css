@@ -1,1 +1,12 @@
 @import url('../assets/fonts/inter.css');
+/* Reset margin và padding mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
