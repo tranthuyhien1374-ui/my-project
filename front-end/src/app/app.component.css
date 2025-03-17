@@ -1,0 +1,16 @@
+:host {
+    display: block;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Chiều cao tối thiểu bằng chiều cao viewport */
+  }
+  
+  .noi-dung-trang {
+    flex: 1 0 auto; /* Nội dung chính chiếm phần còn lại của chiều cao */
+  }
+  app-footer {
+    flex-shrink: 0; /* Đảm bảo footer không bị co lại */
+  }
